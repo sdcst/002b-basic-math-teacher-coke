@@ -14,3 +14,11 @@ You may use either the ** operator or math.pow(x,y) for your exponents
 You may use either math.sqrt(x) or the exponent to the power of 0.5 for your square root
 
  '''
+import math
+a = 5
+b = 8
+a1 = math.pow(a,2)
+b1 = math.pow(b,2)
+c2 = b1+a1
+c = math.sqrt(c2)
+print(f" the hypotenuse is {c}")
